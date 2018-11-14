@@ -82,7 +82,7 @@ DATABASES = {
         'NAME':'bookstore',
 
         'USER':'root',
-        'PASSWORD':'root',
+        'PASSWORD':'atguigu',
         'HOST':'127.0.0.1',
         'PORT':'3306',
     }

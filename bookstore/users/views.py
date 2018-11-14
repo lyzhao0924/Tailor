@@ -74,7 +74,8 @@ def login_check(request):
     else:
         return JsonResponse({'res':0})
 
-    
+   
+
 def logout(request):
     request.session.flush()
-    return redirect(reverse('books:index'))_
+    return redirect(reverse('books:index'))
